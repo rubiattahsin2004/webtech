@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+ 
+<html>
+ 
+<head>
+    <title>
+        Rubiat Tahsin
+    </title>
+</head>
+<body>
+    <center>
+    <h1>
+        University Admission Form
+ 
+    </h1>
+</center>
+    
+ 
+<form>
+    <fieldset>
+    <table>
+
+    <tr><td>First Name:</td><td><input type="text"></td></tr> 
+    <tr><td>Last Name:</td><td><input type="text"> </td></tr>
+    <tr><td>Email:</td><td><input type="email"></td></tr> 
+    <tr><td>Date of Birth:</td><td><input type="date"> </td></tr>
+    <tr><td>Phone Number:</td><td><input type="number"></td></tr> 
+    <tr>
+        <td>Gender:</td>
+        <td><label><input type="radio" name="gender" value="Female"> Female</label></td>
+        <td><label><input type="radio" name="gender" value="Male"> Male</label></td>
+    </tr>
+    <tr><td>Department:</td>
+        <td><label><input type="checkbox" name="department" value="FST"> FST</label></td>
+        <td><label><input type="checkbox" name="department" value="FE"> FE</label></td>
+    </tr>
+    <tr><td>NID:</td><td><input type="file"></td></tr> 
+
+
+    </table>
+    </fieldset>
+<input type="submit">
+</td>
+</tr>
+ 
+ </table>
+</form>
+ 
+</body>
+ 
+</html>
